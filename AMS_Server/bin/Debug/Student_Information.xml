@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <stud_id>2</stud_id>
+    <stud_id_number>2011-00111-bt-0</stud_id_number>
+    <stud_fn>Mary Joyz</stud_fn>
+    <stud_mn>alejandrinox</stud_mn>
+    <stud_ln>Himayac</stud_ln>
+    <stud_parent_number>09488039467z</stud_parent_number>
+    <yr_details>1</yr_details>
+    <sec_details>1</sec_details>
+    <rfid_tag_id>002B9BA24E000104E0</rfid_tag_id>
+    <rfid_id>1</rfid_id>
+    <stud_active>1</stud_active>
+  </Table>
+  <Table>
+    <stud_id>1</stud_id>
+    <stud_id_number>2011-00269-bt-0</stud_id_number>
+    <stud_fn>John Paul</stud_fn>
+    <stud_mn>Dimaano</stud_mn>
+    <stud_ln>Belga</stud_ln>
+    <stud_parent_number>09486489832</stud_parent_number>
+    <yr_details>3</yr_details>
+    <sec_details>2</sec_details>
+    <rfid_tag_id>00FBA1A24E000104E0</rfid_tag_id>
+    <rfid_id>7</rfid_id>
+    <stud_active>1</stud_active>
+  </Table>
+  <Table>
+    <stud_id>3</stud_id>
+    <stud_id_number>2011-00270-bt-0</stud_id_number>
+    <stud_fn>Peter</stud_fn>
+    <stud_mn>Pan</stud_mn>
+    <stud_ln>Parker</stud_ln>
+    <stud_parent_number>09486489832</stud_parent_number>
+    <yr_details>4</yr_details>
+    <sec_details>5</sec_details>
+    <rfid_tag_id>00309BA24E000104E0</rfid_tag_id>
+    <rfid_id>2</rfid_id>
+    <stud_active>1</stud_active>
+  </Table>
+</NewDataSet>

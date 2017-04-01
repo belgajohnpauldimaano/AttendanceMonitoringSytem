@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <stud_id>9</stud_id>
+    <stud_id_number>00143</stud_id_number>
+    <stud_fn>Aiza</stud_fn>
+    <stud_mn>C</stud_mn>
+    <stud_ln>Buensuceso</stud_ln>
+    <stud_parent_number>09486489832</stud_parent_number>
+    <yr_details>12</yr_details>
+    <sec_details>ipil</sec_details>
+    <rfid_tag_id>833de0d5</rfid_tag_id>
+    <rfid_tag_active>1</rfid_tag_active>
+    <rfid_id>13</rfid_id>
+    <stud_active>1</stud_active>
+  </Table>
+</NewDataSet>

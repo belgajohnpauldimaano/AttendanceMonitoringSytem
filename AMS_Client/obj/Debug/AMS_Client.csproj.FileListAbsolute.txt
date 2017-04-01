@@ -1,0 +1,14 @@
+C:\Users\Aspire E 14\Documents\Visual Studio 2012\Project_Systems\RFID_Attendance_Monitoring_System\AMS_Server_.net4.5fx\AMS_Client\obj\Debug\AMS_Server.clsDataAccess.resources
+C:\Users\Aspire E 14\Documents\Visual Studio 2012\Project_Systems\RFID_Attendance_Monitoring_System\AMS_Server_.net4.5fx\AMS_Client\obj\Debug\AMS_Server.frmAttendanceSender.resources
+C:\Users\Aspire E 14\Documents\Visual Studio 2012\Project_Systems\RFID_Attendance_Monitoring_System\AMS_Server_.net4.5fx\AMS_Client\obj\Debug\AMS_Server.frmMainClient.resources
+C:\Users\Aspire E 14\Documents\Visual Studio 2012\Project_Systems\RFID_Attendance_Monitoring_System\AMS_Server_.net4.5fx\AMS_Client\obj\Debug\AMS_Client.csproj.GenerateResource.Cache
+C:\Users\Aspire E 14\Documents\Visual Studio 2012\Project_Systems\RFID_Attendance_Monitoring_System\AMS_Server_.net4.5fx\AMS_Client\obj\Debug\AMS_Client.exe
+C:\Users\Aspire E 14\Documents\Visual Studio 2012\Project_Systems\RFID_Attendance_Monitoring_System\AMS_Server_.net4.5fx\AMS_Client\obj\Debug\AMS_Client.pdb
+C:\Users\Aspire E 14\Documents\Visual Studio 2012\Project_Systems\RFID_Attendance_Monitoring_System\AMS_Server_.net4.5fx\AMS_Client\obj\Debug\AMS_Server.Properties.Resources.resources
+C:\Users\Aspire E 14\Documents\Visual Studio 2012\Project_Systems\RFID_Attendance_Monitoring_System\AMS_Server_.net4.5fx\AMS_Client\bin\Debug\AMS_Client.exe.config
+C:\Users\Aspire E 14\Documents\Visual Studio 2012\Project_Systems\RFID_Attendance_Monitoring_System\AMS_Server_.net4.5fx\AMS_Client\bin\Debug\AMS_Client.exe
+C:\Users\Aspire E 14\Documents\Visual Studio 2012\Project_Systems\RFID_Attendance_Monitoring_System\AMS_Server_.net4.5fx\AMS_Client\bin\Debug\AMS_Client.pdb
+C:\Users\Aspire E 14\Documents\Visual Studio 2012\Project_Systems\RFID_Attendance_Monitoring_System\AMS_Server_.net4.5fx\AMS_Client\bin\Debug\MySql.Data.dll
+C:\Users\Aspire E 14\Documents\Visual Studio 2012\Project_Systems\RFID_Attendance_Monitoring_System\AMS_Server_.net4.5fx\AMS_Client\bin\Debug\Z.IconLibrary.FarmFresh.dll
+C:\Users\Aspire E 14\Documents\Visual Studio 2012\Project_Systems\RFID_Attendance_Monitoring_System\AMS_Server_.net4.5fx\AMS_Client\bin\Debug\Z.IconLibrary.FarmFresh.pdb
+C:\Users\Aspire E 14\Documents\Visual Studio 2012\Project_Systems\RFID_Attendance_Monitoring_System\AMS_Server_.net4.5fx\AMS_Client\obj\Debug\AMS_Client.csprojResolveAssemblyReference.cache

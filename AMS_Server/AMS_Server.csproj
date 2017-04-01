@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{725CEA57-0BFC-48B1-8830-F9E051FE2319}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AMS_Server</RootNamespace>
+    <AssemblyName>AMS_Server</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BetterListViewExpress">
+      <HintPath>bin\Debug\BetterListViewExpress.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="GSMCommShared">
+      <HintPath>..\..\..\..\Test_Lab\sms_rfid\sms\sms_modem\SMS_Test_Modem_WinApp\SMS_Test_Modem_WinApp\bin\Debug\GSMCommShared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GSMCommunication">
+      <HintPath>..\..\..\..\Test_Lab\sms_rfid\sms\sms_modem\SMS_Test_Modem_WinApp\SMS_Test_Modem_WinApp\bin\Debug\GSMCommunication.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\MySql.Data.6.9.8\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PDUConverter">
+      <HintPath>..\..\..\..\Test_Lab\sms_rfid\sms\sms_modem\SMS_Test_Modem_WinApp\SMS_Test_Modem_WinApp\bin\Debug\PDUConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RS232">
+      <HintPath>..\..\..\..\Test_Lab\sms_rfid\sms\sms_modem\SMS_Test_Modem_WinApp\SMS_Test_Modem_WinApp\bin\Debug\RS232.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsFormsControlLibrary1, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WindowsFormsControlLibrary1.dll</HintPath>
+    </Reference>
+    <Reference Include="Z.IconLibrary.FarmFresh, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Downloads\Compressed\codeplex\Z.IconLibrary.FarmFresh\Z.IconLibrary.FarmFresh\NET35\Z.IconLibrary.FarmFresh.dll</HintPath>
+    </Reference>
+    <Reference Include="Z.IconLibrary.Fugue, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Downloads\Compressed\codeplex\Z.IconLibrary.Fugue\Z.IconLibrary.Fugue\NET35\Z.IconLibrary.Fugue.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACR122uCard.cs" />
+    <Compile Include="Classes\Announcement.cs" />
+    <Compile Include="ClassSection.cs" />
+    <Compile Include="clsData_Access.cs" />
+    <Compile Include="ErrorLogger.cs" />
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnnouncer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnnouncer.Designer.cs">
+      <DependentUpon>frmAnnouncer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAttendanceSender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAttendanceSender.Designer.cs">
+      <DependentUpon>frmAttendanceSender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChooseRFID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChooseRFID.Designer.cs">
+      <DependentUpon>frmChooseRFID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHandleAnnoucement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHandleAnnoucement.Designer.cs">
+      <DependentUpon>frmHandleAnnoucement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHandleSection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHandleSection.Designer.cs">
+      <DependentUpon>frmHandleSection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RFIDCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RFIDCard.Designer.cs">
+      <DependentUpon>RFIDCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SMSDataHandler.cs" />
+    <Compile Include="SMSSender.cs" />
+    <Compile Include="frmAddTag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddTag.Designer.cs">
+      <DependentUpon>frmAddTag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePassword.Designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportLoader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportLoader.Designer.cs">
+      <DependentUpon>frmReportLoader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSMSBroadcast.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSMSBroadcast.Designer.cs">
+      <DependentUpon>frmSMSBroadcast.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStudentHandler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStudentHandler.Designer.cs">
+      <DependentUpon>frmStudentHandler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserHandler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserHandler.Designer.cs">
+      <DependentUpon>frmUserHandler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rptStudentInformation.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStudentInformation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rptStudentsLogInfo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptStudentsLogInfo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddTag.resx">
+      <DependentUpon>frmAddTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnnouncer.resx">
+      <DependentUpon>frmAnnouncer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAttendanceSender.resx">
+      <DependentUpon>frmAttendanceSender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChooseRFID.resx">
+      <DependentUpon>frmChooseRFID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHandleAnnoucement.resx">
+      <DependentUpon>frmHandleAnnoucement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHandleSection.resx">
+      <DependentUpon>frmHandleSection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportLoader.resx">
+      <DependentUpon>frmReportLoader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSMSBroadcast.resx">
+      <DependentUpon>frmSMSBroadcast.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStudentHandler.resx">
+      <DependentUpon>frmStudentHandler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserHandler.resx">
+      <DependentUpon>frmUserHandler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RFIDCard.resx">
+      <DependentUpon>RFIDCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStudentInformation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStudentInformation.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptStudentsLogInfo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptStudentsLogInfo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Header.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StudLogs-Cli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StudLogs-Def.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StudLogs-Hov.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-cli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings-Def.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings-Hov.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StudentInfo-Cli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StudentInfo-Def.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StudentInfo-Hov.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-Disabled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no-image-available.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
